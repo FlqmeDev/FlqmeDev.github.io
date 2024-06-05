@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eaglercraft Clients</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      padding: 20px;
+    }
+    .client-slider-container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .client-slider {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    .client-slider ul {
+      padding: 0;
+      margin: 0;
+    }
+    .client-slider li {
+      flex: 0 0 20%;
+      list-style: none;
+      text-align: center;
+      padding: 20px;
+      cursor: pointer;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .client-slider li.selected {
+      background-color: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+    #download-btn {
+      display: block;
+      margin: auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    #download-btn:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px 0;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eaglercraft Clients</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="client-slider-container">
+      <div class="client-slider">
+        <ul>
+          <!-- Client options -->
+          <li data-link="https://www.mediafire.com/file/client1.zip">Client 1</li>
+          <li data-link="https://www.mediafire.com/file/client2.zip">Client 2</li>
+          <li data-link="https://www.mediafire.com/file/client3.zip">Client 3</li>
+          <li data-link="https://www.mediafire.com/file/client4.zip">Client 4</li>
+          <li data-link="https://www.mediafire.com/file/client5.zip">Client 5</li>
+          <li data-link="https://www.mediafire.com/file/client6.zip">Client 6</li>
+          <li data-link="https://www.mediafire.com/file/client7.zip">Client 7</li>
+          <li data-link="https://www.mediafire.com/file/client8.zip">Client 8</li>
+          <li data-link="https://www.mediafire.com/file/client9.zip">Client 9</li>
+          <li data-link="https://www.mediafire.com/file/client10.zip">Client 10</li>
+          <li data-link="https://www.mediafire.com/file/client11.zip">Client 11</li>
+          <li data-link="https://www.mediafire.com/file/client12.zip">Client 12</li>
+          <li data-link="https://www.mediafire.com/file/client13.zip">Client 13</li>
+          <li data-link="https://www.mediafire.com/file/client14.zip">Client 14</li>
+          <li data-link="https://www.mediafire.com/file/client15.zip">Client 15</li>
+        </ul>
+      </div>
+    </div>
+    <button id="download-btn">Download</button>
+  </main>
+  <footer>
+    <p>&copy; 2024 FlqmeDevMC. All rights reserved
