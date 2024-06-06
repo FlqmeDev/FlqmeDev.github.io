@@ -126,12 +126,32 @@
           <li data-link="https://www.mediafire.com/file/zic44us6vaqt6kd/C.M.M.%2527s-Fuchsia-X-Client.html/file">C.M.M.'s-FuchsiaX Client (1.5.2)</li>
           <li data-link="https://www.mediafire.com/file/00x5rugyzf5p4re/Solar.3.5.html/file">Solar 3.5 (1.8)</li>
           <li data-link="https://www.mediafire.com/file/1nnljjf4fs9ucm8/UwUClient_v1_Full.html/file">UWU Client V1 (1.8)</li>
-      
-        </ul>
+  
         </ul>
       </div>
     </div>
     <button id="download-btn">Download</button>
   </main>
   <footer>
-    <p>&copy; 2024 FlqmeDevMC. All rights reserved
+    <p>&copy; 2024 FlqmeDevMC. All rights reserved</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const clientLinks = document.querySelectorAll('.client-slider li');
+
+      clientLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          const clientLink = this.getAttribute('data-link');
+          window.location.href = clientLink;
+        });
+      });
+
+      const downloadButton = document.getElementById('download-btn');
+      downloadButton.addEventListener('click', function() {
+        // Perform download action here
+      });
+    });
+  </script>
+</body>
+</html>
