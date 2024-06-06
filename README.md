@@ -34,6 +34,6 @@ If you have any suggestions, bug fixes, or improvements, feel free to open an is
 
 ## Contact
 
-If you have any questions or want to connect, you can reach me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or want to connect, you can reach me at [Flameclient1.0@gmail.com](mailto:Flameclient1.0@gmail.com).
 
 Thanks for visiting my website! 🌟
